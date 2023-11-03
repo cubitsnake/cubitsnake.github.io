@@ -234,7 +234,7 @@
 }
 
 .post-content {
-  margin-bottom: $spacing-unit;
+  margin-bottom: $spacing-unit * 1.5;
 
   h1, h2, h3, h4, h5, h6 { margin-top: $spacing-unit }
 
@@ -266,6 +266,41 @@
   }
 }
 
+.post-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  line-height: 1.25;
+  margin: ($spacing-unit * 1.25) 0 0 0;
+  > * {
+    position: relative;
+    max-width: 50%;
+    > span {
+      display: none;
+    }
+  }
+  .prev {
+    text-align: left;
+    padding-left: 1.25rem;
+    &::before {
+      content: "\00AB";
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+  .next {
+    text-align: right;
+    padding-right: 1.25rem;
+    &::after {
+      content: "\00BB";
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+  }
+}
 
 .social-media-list {
   display: table;
@@ -325,5 +360,4 @@
  * Disqus Thread
  */
 #disqus_thread {
-  margin-top: $spacing-unit * 3;
 }

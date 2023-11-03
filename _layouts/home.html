@@ -35,7 +35,7 @@ layout: base
           </a>
         </h3>
         {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
+          {{ post.excerpt | replace: "<br>", " " | strip_html | strip }}
         {%- endif -%}
       </li>
       {%- endfor -%}
