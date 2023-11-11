@@ -15,15 +15,23 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
+	"File": {
+		"scope": "markdown",
+		"prefix": "file",
+		"body": [
+			"${1:${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}-${CURRENT_SECONDS_UNIX}.md}$0"
+		]
+	},
 	"Post": {
 		"scope": "markdown",
 		"prefix": "post",
 		"body": [
 			"---",
 			"layout: post",
-			"title:  \"Untitled\"",
-			"date:   ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}T${CURRENT_HOUR}:${CURRENT_MINUTE}:${CURRENT_SECOND}${CURRENT_TIMEZONE_OFFSET}",
+			"title: \"${1:${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}-${CURRENT_SECONDS_UNIX}.md}$0\"",
+			"date: ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}T${CURRENT_HOUR}:${CURRENT_MINUTE}:${CURRENT_SECOND}${CURRENT_TIMEZONE_OFFSET}",
 			"categories: ",
+			"tags: ",
 			"---",
 			"$0"
 		]
