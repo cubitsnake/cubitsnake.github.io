@@ -1,12 +1,12 @@
 
 <div class="site-bio">
     <div class="bio-avatar">
-        <img src="https://www.gravatar.com/avatar/b4fe2f60ebb307b53673e2da6bc31c7b" alt="">
+        <img src="https://github.com/{{ site.github_username | default: 'octocat' }}.png?size=80" alt="">
     </div>
     <div class="bio-summay">
         Written by {{ site.author.name | escape }} 
         {{ site.description | escape }}
-        <a href="https://github.com/{{ site.github_username }}">
+        <a href="https://github.com/{{ site.github_username | escape }}">
             You should follow them on Github
         </a>
     </div>
