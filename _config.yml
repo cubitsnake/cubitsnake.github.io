@@ -94,8 +94,8 @@ giscus:
   enabled: true
   repo: "cubicsteak/cubicsteak.github.io"
   repo_id: "MDEwOlJlcG9zaXRvcnkxMzIxNzE1NDc="
-  category: "General"
-  category_id: "DIC_kwDOB-DHG84C1sJi"
+  category: "Announcements"
+  category_id: "DIC_kwDOB-DHG84C1sJh"
   mapping: "pathname"
   reactions_enabled: "1"
   theme: "dark"
