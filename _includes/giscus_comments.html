@@ -1,0 +1,19 @@
+{%- if page.comments != false -%}
+  <hr>
+  <div id="giscus_thread">
+    <script src="https://giscus.app/client.js"
+      data-repo="{{ site.giscus.repo }}"
+      data-repo-id="{{ site.giscus.repo_id }}"
+      data-category="{{ site.giscus.category }}"
+      data-category-id="{{ site.giscus.category_id }}"
+      data-mapping="{{ site.giscus.mapping | default: 'pathname' }}"
+      data-reactions-enabled="{{ site.giscus.reactions_enabled | default: '1' }}"
+      data-emit-metadata="0"
+      data-input-position="bottom"
+      data-theme="{{ site.giscus.theme | default: 'light' }}"
+      data-lang="{{ site.giscus.lang | default: 'ko' }}"
+      crossorigin="anonymous"
+      async>
+  </script>
+  </div>
+{%- endif -%}

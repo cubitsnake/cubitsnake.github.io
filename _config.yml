@@ -89,4 +89,14 @@ minima:
   #  - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }
 
 github_username: cubicsteak
-disqus_shortname: cubicsteak-github-io
+# disqus_shortname: cubicsteak-github-io
+giscus:
+  enabled: true
+  repo: "cubicsteak/cubicsteak.github.io"
+  repo_id: "MDEwOlJlcG9zaXRvcnkxMzIxNzE1NDc="
+  category: "Announcements"
+  category_id: "DIC_kwDOB-DHG84C1sJh"
+  mapping: "pathname"
+  reactions_enabled: "1"
+  theme: "dark"
+  lang: "ko"

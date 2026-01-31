@@ -30,6 +30,9 @@ layout: base
     {{ content }}
   </div>
 
+  {%- if site.giscus.enabled -%}
+    {%- include giscus_comments.html -%}
+  {%- endif -%}
   {%- if site.disqus_shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}
