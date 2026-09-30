@@ -88,11 +88,11 @@ minima:
   #  - { platform: x,              user_url: "https://x.com/jekyllrb" }
   #  - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }
 
-github_username: cubicsteak
-# disqus_shortname: cubicsteak-github-io
+github_username: cubitsnake
+# disqus_shortname: cubitsnake-github-io
 # giscus:
 #   enabled: true
-#   repo: "cubicsteak/cubicsteak.github.io"
+#   repo: "cubitsnake/cubitsnake.github.io"
 #   repo_id: "MDEwOlJlcG9zaXRvcnkxMzIxNzE1NDc="
 #   category: "Announcements"
 #   category_id: "DIC_kwDOB-DHG84C1sJh"
