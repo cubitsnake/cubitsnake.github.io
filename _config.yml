@@ -21,7 +21,7 @@
 title: Hello, World!
 author: 
   name: Brad
-  email: 4bigchoi23@gmail.com
+  email: cubitsnake@gmail.com
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
@@ -90,13 +90,13 @@ minima:
 
 github_username: cubicsteak
 # disqus_shortname: cubicsteak-github-io
-giscus:
-  enabled: true
-  repo: "cubicsteak/cubicsteak.github.io"
-  repo_id: "MDEwOlJlcG9zaXRvcnkxMzIxNzE1NDc="
-  category: "Announcements"
-  category_id: "DIC_kwDOB-DHG84C1sJh"
-  mapping: "pathname"
-  reactions_enabled: "1"
-  theme: "dark"
-  lang: "ko"
+# giscus:
+#   enabled: true
+#   repo: "cubicsteak/cubicsteak.github.io"
+#   repo_id: "MDEwOlJlcG9zaXRvcnkxMzIxNzE1NDc="
+#   category: "Announcements"
+#   category_id: "DIC_kwDOB-DHG84C1sJh"
+#   mapping: "pathname"
+#   reactions_enabled: "1"
+#   theme: "dark"
+#   lang: "ko"
